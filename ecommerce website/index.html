@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce - Week 1</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- ========================= header ======================== -->
+    <header id="header">
+      <!-- LOGO -->
+      <a href="#"><img src="assets/logo.png" alt="Brand Logo"></a>
+      <!-- NAVbar -->
+      <ul id="navbar">
+       <li><a class="active" href="index.html">Home</a></li>
+          <li><a href="products.html">Shope</a></li>
+          <li><a href="#collection">Collection</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="#" id="cart"><i class="fas fa-shopping-cart"></i><span class="quantity">0</span></a></li>
+        </ul>
+       <div id="mobile">
+          <i id="bar" class="fas fa-bars"></i>
+        </div>
+    </header>
+
+    <!-- ====== hero section ====== -->
+    <section id="hero">
+      <h4>Discover Your Style</h4>
+      <h2>Exclusive Style Picks</h2>
+      <h1>Upgrade Your Wardrobe</h1>
+      <p>Discover premium outfits with amazing discounts up to 70%.</p>
+
+      <button onclick="window.location.href='products.html'">Explore Now</button>
+    </section>
+    <!-- featured categories -->
+    <section id="feature" class="section-p1">
+      <div class="fe-box">
+        <img src="assets/free shipping.png" alt="">
+        <h6>Easy Ordering</h6>
+      </div>
+      <div class="fe-box">
+        <img src="assets/save money.png" alt="">
+        <h6>Best Prices</h6>
+      </div>
+      <div class="fe-box">
+        <img src="assets/promotion.png" alt="">
+        <h6>Special Offer</h6>
+      </div>
+      <div class="fe-box">
+        <img src="assets/sell.png" alt="">
+        <h6>Trusted Quality</h6>
+      </div>
+      <div class="fe-box">
+        <img src="assets/f6.png" alt="">
+        <h6>Customer Care</h6>
+      </div>
+    </section>
+
+    <!--featured products-->
+    <section id="products" class="section-p1">
+      <h2>Featured Products</h2>
+      <div class="pro-container">
+        <div class="pro">
+          <img src="assets/products/dress 1.jpg" alt="Men's Shirt">
+          <div class="des">
+            <span>Summer Bloom</span>
+            <h5>Slim Fit Work Jacket</h5>
+            <h4>$78</h4>
+          </div>
+          <a href="product-details.html"><i class="fas fa-shopping-cart cart"></i></a>
+        </div>
+        <div class="pro">
+          <img src="assets/products/dress 5.jpg" alt="Women's Dress">
+          <div class="des">
+            <span>Summer Bloom</span>
+            <h5>Floral Cotton Dress</h5>
+            <h4>$52</h4>
+          </div>
+          <a href="product-details.html"><i class="fas fa-shopping-cart cart"></i></a>
+        </div>
+        <div class="pro">
+          <img src="assets/products/dress 3.jpg" alt="Women's Dress">
+          <div class="des">
+            <span>Summer Bloom</span>
+            <h5>Lawn Dress</h5>
+            <h4>$52</h4>
+          </div>
+          <a href="product-details.html"><i class="fas fa-shopping-cart cart"></i></a>
+        </div>
+        <div class="pro">
+          <img src="assets/products/dress 4.jpg" alt="Women's Dress">
+          <div class="des">
+            <span>Summer Bloom</span>
+            <h5>Summer Dress</h5>
+            <h4>$52</h4>
+          </div>
+          <a href="product-details.html"><i class="fas fa-shopping-cart cart"></i></a>
+        </div>  
+      </div>
+
+    </section>
+
+    <!-- NewLetters -->
+    <section id="newsletter" class="section-p1">
+      <div class="newstext">
+        <h4>Sign Up for Newsletter</h4>
+        <p>Get updates about new arrivals & <span>special offers</span></p>
+      </div>
+      <div class="form">
+        <input type="text" placeholder="Your Email">
+        <button class="btn">Sign Up</button>
+      </div>
+    </section>
+    <!-- ================ footer section ================ -->
+    <footer class="section-p1">
+      <div class="col">
+        <img src="assets/logo.png">
+        <h4>Contact</h4>
+        <p>Address: 123 Street, Karachi, Pakistan</p>
+        <p>Phone: +92 300 1234567</p>
+        <p>Hours: 10:00 - 18:00, Sun - Mon</p>
+      
+
+       <div class="follow">
+         <h4>Follow us</h4>
+         <div class="icon">
+           <i class="fab fa-facebook"></i>
+           <i class="fab fa-instagram"></i>
+           <i class="fab fa-twitter"></i>
+           <i class="fab fa-youtube"></i>
+           <i class="fab fa-pinterest-p"></i>
+         </div>
+
+       </div>
+     </div>
+
+     <div class="sec">
+       <div class="col">
+         <h4>About</h4>
+         <a href="#">About Us</a>
+         <a href="#">Delivery Info</a>
+         <a href="#">Terms and Conditions</a>
+         <a href="#">Privacy Policy</a>
+       </div>
+
+       <div class="col">
+         <h4>My Account</h4>
+         <a href="#">Sign In</a>
+         <a href="#">My Wishlist</a>
+         <a href="#">View Cart</a>
+         <a href="#">Help</a>
+       </div>
+      
+       <div class="col install">
+          <h4>Install  App</h4>
+          <p>From App Store or Google Play</p>
+
+          <div class="row">
+            <img src="assets/Group.png" alt="">
+            <img src="assets/market-button.png" alt="">
+          </div>
+        </div>
+
+      </div>
+    </footer>
+
+    <script src="script.js"></script>   
+</body>
+</html>
