@@ -43,7 +43,7 @@ This project includes multiple pages such as Home, Products, and Product Details
 
 ### 🏠 1- Home Page
 
-![Home Page]()
+![Home Page](https://github.com/rubisha123/ecommerce-frontend-design/blob/b4035ee73f3fa97e44b3f1ef9be07e6ed34b697a/ecommerce%20website/assets/output-home.png)
 
 
 ### 🛍 2- Products Page
