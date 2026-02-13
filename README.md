@@ -48,7 +48,7 @@ This project includes multiple pages such as Home, Products, and Product Details
 
 ### 🛍 2- Products Page
 
-![Products Page]()
+![Products Page](https://github.com/rubisha123/ecommerce-frontend-design/blob/4b079555548862afb3a63c8939271cf08c46dbf5/ecommerce%20website/assets/output-products.png)
 
 
 ###  3- Product Details Page
